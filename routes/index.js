@@ -1,2 +1,3 @@
-const flipkartScraper=require("../routes/flipkartScrapper")
-module.exports=flipkartScraper
+const flipkartScraper=require("./flipkartScrapper")
+const snapdealScraper=require("./snapdealScraper")
+module.exports={flipkartScraper,snapdealScraper}

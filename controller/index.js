@@ -1,2 +1,3 @@
-const flipkartScraper=require("./flipkart")
-module.exports=flipkartScraper
+const flipkartScraper = require("./flipkart")
+const snapdealScraper = require("./snapdealScraper")
+module.exports = { flipkartScraper, snapdealScraper }
